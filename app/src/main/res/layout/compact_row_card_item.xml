@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacing">
+
+    <TextView
+        android:id="@+id/mana_cost"
+        style="@style/Mana"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/spacing"
+        android:layout_marginStart="@dimen/spacing"
+        android:layout_toRightOf="@id/mana_cost"
+        android:layout_toEndOf="@id/mana_cost"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/spell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/health"
+        style="@style/Health"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/attack"
+        style="@style/Attack"
+        android:layout_marginRight="@dimen/spacing"
+        android:layout_marginEnd="@dimen/spacing"
+        android:layout_toLeftOf="@id/health"
+        android:layout_toStartOf="@id/health"/>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<resources>
+
+    <string name="app_name">Companion</string>
+
+    <!-- Companion -->
+    <string name="hearthstone_not_installed">Hearthstone is not installed.</string>
+
+    <!-- Menu -->
+    <string name="menu_cards">Card Collection</string>
+    <string name="menu_decks">Decks</string>
+    <string name="menu_secrets">Secrets</string>
+    <string name="menu_play">Play Hearthstone</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- Initialization -->
+    <string name="initialization_download_failed">Failed to download card data.</string>
+    <string name="initialization_downloading">Downloading card data: %d%%</string>
+    <string name="initialization_failed">Initialization failed.</string>
+    <string name="initialization_preparing">Preparing cards…</string>
+
+    <!-- Collection -->
+    <string name="collection_pager">Single</string>
+    <string name="collection_grid">Grid</string>
+    <string name="collection_list">List</string>
+
+    <!-- Search -->
+    <string name="search_text_hint">Search</string>
+    <string name="search_text_hint_focused">Search (use numbers for mana cost)</string>
+    <string name="search_no_results">
+        Sorry, we couldn\'t find anything for this search.\n\n
+        Here are some examples of valid queries:\n
+        &#8226; \"deathrattle\" - cards with \"deathrattle\" in their text\n
+        &#8226; \"taunt divine shield\" - cards with both "taunt" and "divine shield"\n
+        &#8226; \"3 beast\" - 3 mana beast cards\n
+        &#8226; \"damage 2 spell\" - 2 mana spell cards with \"damage\" in their text
+    </string>
+
+    <!-- Deck add -->
+    <string name="deck_add_title">Choose your hero class</string>
+    <string name="deck_add_error">Sorry, couldn\'t add your deck</string>
+
+    <!-- Deck construction -->
+    <string name="deck_construction_done">Done editing</string>
+
+    <!-- Deck detail -->
+    <string name="deck_detail_delete">Delete deck</string>
+    <string name="deck_detail_rename">Rename deck</string>
+    <string name="deck_detail_edit">Edit deck</string>
+
+    <!-- Deck delete -->
+    <string name="deck_delete_message">Are you sure you want to delete this deck? This action cannot be undone.</string>
+
+    <!-- Deck list -->
+    <string name="deck_list_title">Decks</string>
+    <string name="deck_list_no_decks">Hey, you have no decks. Go construct some!</string>
+
+    <!-- Deck name -->
+    <string name="deck_name_title">Name your deck</string>
+    <string name="deck_name_hint">Deck name</string>
+
+    <!-- Strings -->
+    <string name="artist_name">Artist Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="card_image">Card Image</string>
+    <string name="card_set">Card Set</string>
+    <string name="cards">cards</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done</string>
+    <string name="how_to_get_this_card">How to get this card</string>
+    <string name="how_to_get_this_gold_card">How to get this golden card</string>
+    <string name="more_info">MORE INFO</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="secret">Secret</string>
+    <string name="spell">Spell</string>
+    <string name="yes">Yes</string>
+
+    <!-- Ads -->
+    <string name="ad_unit_id_bottom_banner">ca-app-pub-6623423112931326/6410434697</string>
+
+</resources>

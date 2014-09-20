@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarSize">@dimen/action_bar_size</item>
+    </style>
+
+    <style name="Number">
+        <item name="android:layout_width">@dimen/number_size</item>
+        <item name="android:layout_height">@dimen/number_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Mana" parent="Number">
+        <item name="android:background">@color/mana</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Attack" parent="Number">
+        <item name="android:background">@color/attack</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Health" parent="Number">
+        <item name="android:background">@color/health</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Durability" parent="Number">
+        <item name="android:background">@color/weapon</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="DetailText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

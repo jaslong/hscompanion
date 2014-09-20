@@ -1,0 +1,7 @@
+.gradle
+.idea
+*.jks
+*.p12
+.DS_Store
+build
+local.properties

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/spacing"
+    android:paddingBottom="@dimen/spacing"
+    android:paddingLeft="@dimen/deck_card_spacing"
+    android:paddingRight="@dimen/deck_card_spacing">
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="@dimen/deck_card_count_width"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/mana_cost"
+        android:layout_width="@dimen/number_size"
+        android:layout_height="@dimen/number_size"
+        android:layout_marginLeft="@dimen/deck_card_spacing"
+        android:layout_marginStart="@dimen/deck_card_spacing"
+        android:layout_toRightOf="@id/count"
+        android:layout_toEndOf="@id/count"
+        android:layout_centerVertical="true"
+        android:background="@drawable/mana_crystal"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/deck_card_spacing"
+        android:layout_marginStart="@dimen/deck_card_spacing"
+        android:layout_toRightOf="@id/mana_cost"
+        android:layout_toEndOf="@id/mana_cost"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
