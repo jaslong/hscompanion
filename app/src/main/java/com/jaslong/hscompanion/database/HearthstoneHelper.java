@@ -24,7 +24,7 @@ public class HearthstoneHelper extends SQLiteOpenHelper {
     private static final Logger sLogger = Logger.create("DB", "HearthstoneHelper");
 
     private static final String DATABASE_NAME = "com.jaslong.hscompanion.database";
-    private static final int VERSION = 1;
+    private static final int VERSION = 2;
     private static final List<SQLiteTable> STATIC_TABLES = Arrays.asList(
             HearthstoneTables.CARD,
             HearthstoneTables.WORD_CARD);

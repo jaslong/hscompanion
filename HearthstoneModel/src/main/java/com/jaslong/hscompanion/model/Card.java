@@ -27,7 +27,8 @@ public interface Card {
         REWARD("Reward"),
         PROMO("Promo"),
         NAXXRAMAS("Naxxramas"),
-        GOBLINS_VS_GNOMES("Goblins vs Gnomes");
+        GOBLINS_VS_GNOMES("Goblins vs Gnomes"),
+        BLACKROCK_MOUNTAIN("Blackrock Mountain");
         private final String mName;
         private Set(String name) {
             mName = name;

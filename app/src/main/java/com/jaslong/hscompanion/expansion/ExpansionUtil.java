@@ -15,7 +15,7 @@ public class ExpansionUtil {
     private static final Logger sLogger = Logger.create("ExpansionUtil");
 
     private static ExpansionMetadata METADATA = new ExpansionMetadata(
-            2, 50514178L,
+            3, 53609403L,
             0, 0L);
 
     public static ZipResourceFile getExpansionFile() {

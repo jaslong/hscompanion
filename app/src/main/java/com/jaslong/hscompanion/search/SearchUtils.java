@@ -15,6 +15,7 @@ public final class SearchUtils {
             "Basic",
             "Battlecry",
             "Beast",
+            "Blackrock Mountain",
             "Charge",
             "Choose One",
             "Combo",

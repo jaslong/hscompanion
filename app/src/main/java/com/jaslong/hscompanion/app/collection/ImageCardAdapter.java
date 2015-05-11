@@ -100,8 +100,6 @@ class ImageCardAdapter extends BaseListAdapter<Card> implements GroupListAdapter
                         if (cardId.equals(
                                 viewHolder.getView().getTag(R.id.image_card_id_key))) {
                             viewHolder.image.setImageBitmap(bitmap);
-                        } else {
-                            sLogger.ic("View has changed: " + card.getName());
                         }
                     }
 

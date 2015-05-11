@@ -307,6 +307,7 @@ public class CollectionControllerFragment extends BaseFragment implements
                 new String[] {
                         Card.Set.NAXXRAMAS.toString(),
                         Card.Set.GOBLINS_VS_GNOMES.toString(),
+                        Card.Set.BLACKROCK_MOUNTAIN.toString(),
                         Card.Rarity.LEGENDARY.toString()
                 });
         mSearchView.setAdapter(adapter);
